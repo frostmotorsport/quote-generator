@@ -8,4 +8,4 @@ var quotes = [
 
 function newQuote() {var randomNumber = Math.floor(math.random() * (quotes.length));
 document.getElementByID('quoteDisplay').innerHTML = quotes[randomNumber];
-]
+}
