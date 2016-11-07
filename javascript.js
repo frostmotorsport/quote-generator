@@ -6,6 +6,7 @@ var quotes = [
 'Beer is constant proof that God loves us and loves to see us happy. Me'
 ]
 
-function newQuote() {var randomNumber = Math.floor(math.random() * (quotes.length));
-document.getElementByID('quoteDisplay').innerHTML = quotes[randomNumber];
+function newQuote() {
+	var randomNumber = Math.floor(Math.random() * (quotes.length));
+	document.getElementByID('quoteDisplay').innerHTML = quotes[randomNumber];
 }
